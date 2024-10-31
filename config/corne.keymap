@@ -188,10 +188,10 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&trans  &kp N1             &kp N2        &kp N3             &kp N4           &kp N5       &kp N6   &kp N7        &kp N8          &kp N9        &kp N0     &trans
-&trans  &kp EQUAL          &hm LSHFT N4  &hm LALT UP_ARROW  &hm LCTRL DEL    &kp LC(C)    &kp N0   &hm RCTRL N4  &hm RALT N5     &hm RSHFT N6  &kp RC(T)  &trans
-&trans  &kp LC(BACKSPACE)  &kp LEFT      &kp DOWN           &kp RIGHT_ARROW  &kp LC(V)    &trans   &kp N1        &kp N2          &kp N3        &kp RC(L)  &trans
-                                         &kp LGUI           &trans           &kp SPACE    &kp RET  &trans        &kp LEFT_SHIFT
+&trans  &kp N1             &kp N2         &kp N3        &kp N4           &kp N5       &kp N6   &kp N7        &kp N8          &kp N9        &kp N0     &trans
+&trans  &kp EQUAL          &kp LC(SPACE)  &kp UP_ARROW  &kp LC(F)        &kp LC(C)    &kp N0   &hm RCTRL N4  &hm RALT N5     &hm RSHFT N6  &kp RC(T)  &trans
+&trans  &kp LC(BACKSPACE)  &kp LEFT       &kp DOWN      &kp RIGHT_ARROW  &kp LC(V)    &trans   &kp N1        &kp N2          &kp N3        &kp RC(L)  &trans
+                                          &kp LGUI      &trans           &kp SPACE    &kp RET  &trans        &kp LEFT_SHIFT
             >;
         };
 
